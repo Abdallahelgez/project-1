@@ -1,7 +1,7 @@
 *{
   -webkit-box-sizing:border-box;
   -webkit-box-sizing:padding-box;
-  margin: 0px;
+  text-transform: uppercase;
 }
 body{
   background-color: #333;

@@ -4,7 +4,7 @@ function App() {
       {/* start first */}
       <div className="first">
         <a
-          href="exambel.html"
+          href=""
           title="alhdaf company"
           style={{ paddingLeft: 30 }}
         >

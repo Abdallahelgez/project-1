@@ -25,6 +25,7 @@ span{
 }
 .navbar ul{
   padding: 0px;
+  margin: 0px;
 }
 .navbar ul li{
   list-style-type: none;

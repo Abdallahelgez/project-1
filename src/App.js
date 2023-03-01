@@ -16,16 +16,16 @@ function App() {
       <div className="navbar">
         <ul>
           <li>
-            <a href="">home</a>
+            <a href="home" >home</a>
           </li>
           <li>
-            <a href="">about us</a>
+            <a href="about-us">about us</a>
           </li>
           <li>
-            <a href="">Registration host &amp; domain</a>
+            <a href="registration-host">Registration host &amp; domain</a>
           </li>
           <li>
-            <a href="">contact us</a>
+            <a href="contact-us">contact us</a>
           </li>
         </ul>
       </div>

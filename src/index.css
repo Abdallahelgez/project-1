@@ -1,16 +1,4 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
 *{
   -webkit-box-sizing:border-box;
   -webkit-box-sizing:padding-box;
@@ -26,13 +14,13 @@ span{
 /* start header */
 
 .header{
-  width: 1280px;
+  width: 100%;
   margin: 0px auto;
   
 }
 /* start navbar */
 .navbar{
-  width: auto;
+  width: 100%;
   background-image:linear-gradient(#000,#555);
   margin: 0;
   
@@ -130,7 +118,7 @@ body .content .right{
   height: 250px;
   padding-top: 20px;
   border:1px solid #666; 
-  width: 35%;
+  width: 75%;
   padding-left: 30px;
   font-size: 14px;
   border-radius: 10px;
@@ -144,15 +132,18 @@ body .content .left #button{
 }
 
 
-.copy{
-  padding-left: 100px;
-  width: 1000px;
+footer{
+  text-align: center;
+  padding:3px ;
+  width: 100%;
   margin:  auto;
   position: fixed;
-  bottom: 10px;
+  bottom: 0px;
+  background-image:linear-gradient(#000,#555);
+  
 }
 
-.copy .logo{
+footer .logo{
   
   border-radius: 10%;
   margin-left: 10px;
@@ -160,6 +151,9 @@ body .content .left #button{
    
 }
 h1{
-  color: white;
+  color: black;
   font-style: italic;
+}
+.navclass.active{
+  color: greenyellow;
 }
